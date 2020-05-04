@@ -1,0 +1,123 @@
+.navbar {
+    overflow: hidden;
+    background-color: sandybrown;
+    font-family: Arial;
+ }
+
+ .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+ }
+
+ .dropdown {
+    float: left;
+    overflow: hidden;
+ }
+
+ .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+ }
+
+ .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color:rgb(218, 148, 87);
+ }
+
+ .dropdown-content {
+    display: none;
+    position: absolute;
+     background-color: #f9f9f9;
+     min-width: 160px;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+     z-index: 1;
+   }
+
+   .dropdown-content a {
+     float: none;
+     color: black;
+     padding: 12px 16px;
+     text-decoration: none;
+     display: block;
+     text-align: left;
+   }
+
+
+   .dropdown-content a:hover {
+     background-color: rgb(218, 148, 87);
+   }
+
+
+   .dropdown:hover .dropdown-content {
+     display: block;
+   }
+   .fixed-nav-bar {
+     position: fixed;
+     top: 0;
+     left: 0;
+     z-index: 9999;
+     width: 100%;
+     height: 60px;
+     background-color:olivedrab ;
+   }
+
+
+
+ body {
+     background-image: url('./images/Map.jpg');
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: 100%;
+ }
+
+ section {
+     background-color: tan;
+     margin-top: 40px;
+     margin-right: 100px;
+     margin-bottom: 40px;
+     margin-left: 100px;
+     font-family: 'Montserrat', sans-serif;
+     padding-right: 50px;
+     padding-left: 50px;
+ }
+
+ h1 {
+     text-align: center;
+     font-size: 50px;
+     font-family: 'Bebas Neue', cursive;
+     padding: 1%;
+ }
+ h2 {
+     font-size: 42px;
+     text-align: center;
+     font-weight: 600;
+     font-family: 'Bebas Neue', cursive;
+ }
+ h3 {
+     font-size: 30px;
+     text-align: center;
+     font-family: 'Bebas Neue', cursive;
+ }
+ p {
+     font-size: 18px;
+     text-align: left;
+
+ }
+
+ .center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   max-height: 600px;
+   max-width: 600px;
+   padding: 0 0 10px 0;
+ }
